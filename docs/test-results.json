@@ -1,0 +1,246 @@
+{
+  "results": [
+    {
+      "name": "desktop load index",
+      "ok": true,
+      "detail": "slides=15"
+    },
+    {
+      "name": "desktop slide 1 visible",
+      "ok": true,
+      "detail": "CREATIVE INSTITUTE　｜　演示原型"
+    },
+    {
+      "name": "slide 2 WIPO 1461 and 70%",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop slide 2 visible",
+      "ok": true,
+      "detail": "PART 1　市場背景　｜　第 2 頁"
+    },
+    {
+      "name": "slide 3 has 388 and 84.3% and 61",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop slide 3 visible",
+      "ok": true,
+      "detail": "PART 1　為何是香港　｜　第 3 頁"
+    },
+    {
+      "name": "slide 4 has 83.1% and IP share note",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop slide 4 visible",
+      "ok": true,
+      "detail": "PART 1　市場尺度　｜　第 4 頁"
+    },
+    {
+      "name": "slide 5 labels unofficial projection",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop slide 5 visible",
+      "ok": true,
+      "detail": "PART 1　展望　｜　第 5 頁"
+    },
+    {
+      "name": "desktop slide 6 visible",
+      "ok": true,
+      "detail": "PART 2　問題分析　｜　第 6 頁"
+    },
+    {
+      "name": "desktop slide 7 visible",
+      "ok": true,
+      "detail": "PART 2　需求　｜　第 7 頁"
+    },
+    {
+      "name": "desktop slide 8 visible",
+      "ok": true,
+      "detail": "PART 2　痛點（待驗證）　｜　第 8 頁"
+    },
+    {
+      "name": "desktop slide 9 visible",
+      "ok": true,
+      "detail": "PART 3　方案　｜　第 9 頁"
+    },
+    {
+      "name": "desktop slide 10 visible",
+      "ok": true,
+      "detail": "PART 3　流程　｜　第 10 頁"
+    },
+    {
+      "name": "desktop slide 11 visible",
+      "ok": true,
+      "detail": "PART 3　技術　｜　第 11 頁"
+    },
+    {
+      "name": "desktop slide 12 visible",
+      "ok": true,
+      "detail": "PART 4　效益　｜　第 12 頁"
+    },
+    {
+      "name": "desktop slide 13 visible",
+      "ok": true,
+      "detail": "PART 4　戰略定位　｜　第 13 頁"
+    },
+    {
+      "name": "desktop slide 14 visible",
+      "ok": true,
+      "detail": "PART 4　結語　｜　第 14 頁"
+    },
+    {
+      "name": "sources appendix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "keyboard ArrowRight",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "chart chart-hkiac rendered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "chart chart-ipshare rendered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "chart chart-forecast rendered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "print stylesheet present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop deck console errors == 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop failed HTTP == 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no external media/script/font requests",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gateway A success reaches 和解",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gateway A-success console clean",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gateway B refuse continues original procedure",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gateway B-refuse console clean",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gateway C fail returns to arbitration",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gateway C-fail console clean",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "single-party consent next is disabled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile 360 no severe horizontal overflow",
+      "ok": true,
+      "detail": "{'scrollWidth': 360, 'clientWidth': 360}"
+    },
+    {
+      "name": "mobile slide 1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile slide 4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile slide 5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile slide 10",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile slide 14",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile gateway loads",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile console errors == 0",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "screenshots": [
+    "desktop-gateway-A-success.png",
+    "desktop-gateway-B-refuse.png",
+    "desktop-gateway-C-fail.png",
+    "desktop-slide-01.png",
+    "desktop-slide-02.png",
+    "desktop-slide-03.png",
+    "desktop-slide-04.png",
+    "desktop-slide-05.png",
+    "desktop-slide-06.png",
+    "desktop-slide-07.png",
+    "desktop-slide-08.png",
+    "desktop-slide-09.png",
+    "desktop-slide-10.png",
+    "desktop-slide-11.png",
+    "desktop-slide-12.png",
+    "desktop-slide-13.png",
+    "desktop-slide-14.png",
+    "desktop-sources.png",
+    "mobile-gateway-mode.png",
+    "mobile-slide-01.png",
+    "mobile-slide-04.png",
+    "mobile-slide-05.png",
+    "mobile-slide-10.png",
+    "mobile-slide-14.png"
+  ],
+  "pass": true
+}

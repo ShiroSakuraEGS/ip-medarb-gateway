@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# secrets and local env
+.env
+.env.*
+*.pem
+*.key
+
+# dependencies / caches (Chart.js is vendored under site/vendor)
+node_modules/
+__pycache__/
+*.log

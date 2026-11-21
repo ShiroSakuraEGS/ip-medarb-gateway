@@ -1,0 +1,50 @@
+# 依據 docs.github.com：GitHub Actions 作為 Pages 發佈來源
+# 前置：Settings → Pages → Source = GitHub Actions
+# 本工作流程只上傳 site/（簡報與通道示範），不發佈 docs/
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Secret pattern scan
+        run: |
+          if grep -rIEn --exclude-dir=.git --exclude-dir=node_modules \
+            -e 'AKIA[0-9A-Z]{16}' -e 'AIza[0-9A-Za-z_-]{35}' \
+            -e '-----BEGIN (RSA |EC )?PRIVATE KEY-----' \
+            -e 'ghp_[0-9A-Za-z]{36}' . ; then
+            echo "::error::Possible secret found."; exit 1
+          fi
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
